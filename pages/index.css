@@ -151,7 +151,7 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24ps;
+  top: 24px;
   bottom: 215px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
