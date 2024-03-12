@@ -101,15 +101,27 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <fieldset>
-            <label class="input__name">Name *</label>
-            <input type="text" name="Name Surname" id="Name" />
-            <label>Number of guests *</label>
-            <input type="number" min="1" max="8" />
-            <label>Date & time *</label>
+          <fieldset class="form">
+            <label class="form__label" form="name">Name *</label>
+            <input
+              class="form__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name Surname"
+            />
+            <label class="input__label" form="number">Number of guests *</label>
+            <input
+              type="number"
+              min="1"
+              max="8"
+              id="number"
+              placeholder="1-8"
+            />
+            <label class="input__label" form="date">Date & time *</label>
             <input type="datetime-local" />
-            <label>Your email *</label>
-            <input type="text" />
+            <label class="input__label" form="email">Your email *</label>
+            <input type="text" id="email" placeholder="Your Email" />
             <label>Name</label>
             <input type="text" />
             <input type="checkbox" />
